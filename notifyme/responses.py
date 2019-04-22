@@ -13,7 +13,7 @@ def success_response():
 def error_response(error):
     """Return standard error response to user."""
     payload = {'error': error}
-    return _json_response(payload, error['code'])
+    return _json_response(payload, error.code)
 
 
 def _json_response(payload, code):
