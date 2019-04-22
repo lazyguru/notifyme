@@ -1,5 +1,5 @@
 # Flask and plugins
-flask==0.12.2
+flask>=0.12.3
 nexmo==2.3.0
 M2Crypto==0.32.0
 validatesns==0.1.1
